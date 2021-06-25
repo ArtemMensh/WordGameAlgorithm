@@ -1,0 +1,16 @@
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.csprojAssemblyReference.cache
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.AssemblyInfoInputs.cache
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.AssemblyInfo.cs
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.csproj.CoreCompileInputs.cache
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.exe
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.deps.json
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.runtimeconfig.json
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.runtimeconfig.dev.json
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.dll
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\ref\GenerateSquare.dll
+C:\Work\C#\GenerateSquare\GenerateSquare\bin\Debug\net5.0\GenerateSquare.pdb
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.dll
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\ref\GenerateSquare.dll
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.pdb
+C:\Work\C#\GenerateSquare\GenerateSquare\obj\Debug\net5.0\GenerateSquare.genruntimeconfig.cache
