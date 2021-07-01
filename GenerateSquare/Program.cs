@@ -7,7 +7,7 @@ namespace GenerateSquare
         static void Main(string[] args)
         {
             var read = new ReadFileWord();
-            read.ReadFileCorutina();
+            read.ReadAndBuildTree();
 
             var generator = new GenerateSquare(read,5,5);
             var chars = generator.MaxCountGenerateBox();

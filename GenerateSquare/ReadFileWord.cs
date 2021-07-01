@@ -20,7 +20,7 @@ namespace GenerateSquare
         // путь до файла где лежит список слов
         private string _path;
         
-        public void ReadFileCorutina()
+        public void ReadAndBuildTree()
         {
             _path = Directory.GetCurrentDirectory() + @"\words.txt";
 

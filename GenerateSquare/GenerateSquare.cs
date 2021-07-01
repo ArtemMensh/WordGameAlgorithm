@@ -8,7 +8,7 @@ namespace GenerateSquare
     {
         // Параметры отвечающие за генерацию лучшего результата
         // количество попыток генерации
-        public int MaxIteration = 5;
+        public int MaxIteration = 10;
         // минимальное количество слов при котором генерация считается успешной
         public int MinCountWord = 100;
 
@@ -23,7 +23,7 @@ namespace GenerateSquare
         private int _countRow;
 
         private ReadFileWord _read;
-      
+
         // все найденые слова 
         private List<string> _allWord = new List<string>();
 
@@ -39,6 +39,8 @@ namespace GenerateSquare
         public GenerateSquare(ReadFileWord readFileWord, int countColumn, int countRow)
         {
             _read = readFileWord;
+            // кешируем дерево
+            treeWord = _read.TreeWord;
             CountColumn = countColumn;
             CountRow = countRow;
         }
@@ -74,8 +76,18 @@ namespace GenerateSquare
             FillCrosswordLettersArray(arrayRandomLetters);
             // преобразуем из одномерного в двумерный массив
             _cellLetter = GetCell(arrayRandomLetters);
-            // кешируем дерево
-            treeWord = _read.TreeWord;
+
+
+            // для теста
+            //_cellLetter = new char[,] { {'п', 'д', 'л', 'д', 'з' },
+            //    {'а', 'з', 'а', 'д', 'м' },
+            //    {'с', 'з', 'к', 'р', 'у'},
+            //    {'в', 'о', 'к', 'ь', 'з'},
+            //    { 'о', 'с', 'о', 'н', 'л'},
+            //};
+
+
+           
             // поиск слов в сгенерированном поле
             FindAllWord();
 
@@ -255,8 +267,8 @@ namespace GenerateSquare
             Letter currentLetter = null;
             var currentWord = new List<char>();
 
-           
-            foreach (var i in path.Reverse()) 
+
+            foreach (var i in path.Reverse())
             {
                 // прекращаем поиск если видим что слов начинающихся с найденной последовательности символов не существует
                 if (currentLetter == null)
